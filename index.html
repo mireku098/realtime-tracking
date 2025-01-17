@@ -77,7 +77,8 @@
     }
 
     // Establish WebSocket connection
-    const socket = io('http://localhost:3000'); // Connect to the WebSocket server
+   const socket = io('https://realtime-tracking-xmaq.onrender.com');
+ // Connect to the WebSocket server
 
     // Handle real-time location updates
     socket.on('location', (data) => {
